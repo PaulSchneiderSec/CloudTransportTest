@@ -13,9 +13,12 @@ ENDCLASS.
 
 
 CLASS ZPAS_TRANSPORTKLASSE_TEST IMPLEMENTATION.
-
-
-  method TESTMETHODETRANSPORT.
+  METHOD testmethodetransport.
     rt_test = 42.
-  endmethod.
+    IF rt_test > 40.
+      rt_test = 42.
+    ELSE.
+      rt_test = 13.
+    ENDIF.
+  ENDMETHOD.
 ENDCLASS.
