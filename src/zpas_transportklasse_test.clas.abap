@@ -18,7 +18,7 @@ CLASS ZPAS_TRANSPORTKLASSE_TEST IMPLEMENTATION.
     IF rt_test > 40.
       rt_test = 42.
     ELSE.
-      rt_test = 13.
+      rt_test = 12.
     ENDIF.
   ENDMETHOD.
 ENDCLASS.
